@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang = "en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device,initial-scale=1">
+    <meta name ="description" content ="this week we are looking at forms and css">
+    <meta name = "robots" content="noindex nofollow">
+    <title> week 3 css and forms</title>
+    <!--add our css file-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<header>
+    <!--a div for the logo container-->
+    <div>
+        <a href="index.html" > <img src="./images/logo.png"alt="header logo"></a>
+    </div>
+    <nav>
+        <menu>
+            <li>
+            <a href="index.html">link one</a>\</li>
+            <a href="index.html">link two</a>\</li>
+
+        </menu>
+    </nav>
+</header>
+<!-- add a section for masthead-->
+<section>
+    <h1> forms and css </h1>
+</section>
+    <main>
+        <section>
+            <div>
+                <!--this is my form container-->
+                <form action="somephpfiles" method="post" enctype="multipart/form-data">
+                    <label>enter you name(required) </label>
+                    <br>
+                    <input type="text" name="name" required>
+                    <br>
+                    <input type="email" name="email" required placeholder="*your email">
+                    <br>
+                    <label> password</label>
+                    <br>
+                    <input type="password" name="pword" required>
+                    <br>
+                    <label> choose one</label>
+                    <br>
+                    <input type="radio" id="html" name="fav_lang" value="HTML">
+                    <label for="html">HTML</label>
+                    <br>
+                    <input type="radio" id="css" name="fav_lang" value="CSS">
+                    <label for="css">CSS</label>
+                    <br>
+                    <label> check all that apply</label>
+                    <br>
+                    <input type="checkbox" id="choice1" name="choice1" value="choice1">
+                    <label for="choice1">choice1</label>
+                    <br>
+                    <input type="checkbox" id="choice2" name="choice2" value="choice2">
+                    <label for="choice2">choice2</label>
+                    <br>
+                    <input type="checkbox" id="choice3" name="choice3" value="choice3">
+                    <label for="choice3">choice3</label>
+                    <br>
+                    <label>pick a number between 1 to 10</label>
+                    <input type ="number" name="quantity" min="1" max="10">
+                    <br>
+                    <label> phone number</label>
+                    <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    <br>
+                    <input type="submit" name="send">
+                </form>
+
+            </div>
+        </section>
+    </main>
+<aside>
+    <article>
+        <img src="./images/image-1.jpg" alt="image 1">
+        <h4> title</h4>
+        <a href="#"> link</a>
+    </article>
+    <article>
+         <img src="./images/image-2.jpg" alt="image 2">
+         <h5>title</h5>
+         <a href="#"> link</a>
+    </article>
+</aside>
+<footer>
+    <a href="index.html"><img src="./images/logo.png" alt="footer logo"></a>
+</footer>
+
+</body>
+</html>
